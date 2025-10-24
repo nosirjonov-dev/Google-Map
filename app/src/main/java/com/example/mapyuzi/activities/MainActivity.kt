@@ -3,6 +3,9 @@ package com.example.mapyuzi.activities
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.mapyuzi.activities.distance.DistanceActivity
+import com.example.mapyuzi.activities.saved.SavedActivity
+import com.example.mapyuzi.activities.step.StepActivity
 import com.example.mapyuzi.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -17,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         binding.area.setOnClickListener {
-            val intent = Intent(this, YuzaActivity::class.java)
+            val intent = Intent(this, AreaActivity::class.java)
             startActivity(intent)
         }
         binding.saved.setOnClickListener {

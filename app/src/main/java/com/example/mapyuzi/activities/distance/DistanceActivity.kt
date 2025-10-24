@@ -1,4 +1,4 @@
-package com.example.mapyuzi.activities
+package com.example.mapyuzi.activities.distance
 
 import android.Manifest
 import android.app.AlertDialog

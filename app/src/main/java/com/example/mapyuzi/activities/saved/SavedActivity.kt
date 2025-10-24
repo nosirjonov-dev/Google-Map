@@ -1,4 +1,4 @@
-package com.example.mapyuzi.activities
+package com.example.mapyuzi.activities.saved
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.mapyuzi.activities.MapDisplayActivity
 import com.example.mapyuzi.adapters.SavedAdapter
 import com.example.mapyuzi.databinding.ActivitySavedBinding
 import com.example.mapyuzi.models.SavedArea

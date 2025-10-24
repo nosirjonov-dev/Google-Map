@@ -11,7 +11,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import com.example.mapyuzi.R
-import com.example.mapyuzi.databinding.ActivityYuzaBinding
+import com.example.mapyuzi.databinding.ActivityAreaBinding
 import com.example.mapyuzi.models.SavedArea
 import com.example.mapyuzi.models.SavedDbHelper
 import com.google.android.gms.location.FusedLocationProviderClient
@@ -24,9 +24,9 @@ import com.google.android.gms.maps.model.*
 import java.util.Locale
 import kotlin.math.*
 
-class YuzaActivity : AppCompatActivity(), OnMapReadyCallback {
+class AreaActivity : AppCompatActivity(), OnMapReadyCallback {
 
-    private val binding by lazy { ActivityYuzaBinding.inflate(layoutInflater) }
+    private val binding by lazy { ActivityAreaBinding.inflate(layoutInflater) }
     private lateinit var map: GoogleMap
     private var list = ArrayList<LatLng>()
     private var polygon: Polygon? = null

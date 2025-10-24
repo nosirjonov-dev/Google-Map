@@ -1,4 +1,4 @@
-package com.example.mapyuzi.activities
+package com.example.mapyuzi.activities.step
 
 import android.Manifest
 import android.content.pm.PackageManager
