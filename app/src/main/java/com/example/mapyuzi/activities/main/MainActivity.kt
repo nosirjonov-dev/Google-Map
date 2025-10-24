@@ -1,8 +1,9 @@
-package com.example.mapyuzi.activities
+package com.example.mapyuzi.activities.main
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.mapyuzi.activities.area.AreaActivity
 import com.example.mapyuzi.activities.distance.DistanceActivity
 import com.example.mapyuzi.activities.saved.SavedActivity
 import com.example.mapyuzi.activities.step.StepActivity

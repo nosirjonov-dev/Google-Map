@@ -6,7 +6,7 @@ import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import com.example.mapyuzi.R
-import com.example.mapyuzi.activities.MainActivity
+import com.example.mapyuzi.activities.main.MainActivity
 
 class SplashActivity : AppCompatActivity() {
 

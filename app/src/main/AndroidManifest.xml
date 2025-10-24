@@ -30,13 +30,13 @@
             android:name=".activities.step.StepActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.MapDisplayActivity"
+            android:name=".activities.saved.MapDisplayActivity"
             android:exported="false" />
         <activity
             android:name=".activities.saved.SavedActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.AreaActivity"
+            android:name=".activities.area.AreaActivity"
             android:exported="false" />
         <activity
             android:name=".activities.distance.DistanceActivity"
@@ -47,7 +47,7 @@
             android:value="AIzaSyDnv-5qJljahx-eKsOPjfgiMsIh0mll8NE" />
 
         <activity
-            android:name=".activities.MainActivity"/>
+            android:name=".activities.main.MainActivity"/>
 
     </application>
 

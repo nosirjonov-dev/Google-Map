@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.AreaActivity">
+    tools:context=".activities.area.AreaActivity">
 
     <fragment
         android:id="@+id/map"
@@ -85,6 +85,7 @@
                     android:id="@+id/searchEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_2sdp"
                     android:textColor="@color/black" />
             </com.google.android.material.textfield.TextInputLayout>
 

@@ -6,7 +6,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.mapyuzi.activities.MapDisplayActivity
 import com.example.mapyuzi.adapters.SavedAdapter
 import com.example.mapyuzi.databinding.ActivitySavedBinding
 import com.example.mapyuzi.models.SavedArea

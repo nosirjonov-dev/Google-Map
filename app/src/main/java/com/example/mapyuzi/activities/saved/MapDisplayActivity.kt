@@ -1,4 +1,4 @@
-package com.example.mapyuzi.activities
+package com.example.mapyuzi.activities.saved
 
 import android.graphics.Color
 import android.os.Bundle
